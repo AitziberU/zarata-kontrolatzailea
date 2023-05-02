@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="pgG(Xcq0FW)K;#iL~LN%">Soinu_limitea</variable></variables><block type="pxt-on-start" id="xF!8|lmb(d1ky5-8J:[u" x="-88" y="18"><statement name="HANDLER"><block type="variables_set" id="5~+J+fWxkc|3Cz03fs?="><field name="VAR" id="pgG(Xcq0FW)K;#iL~LN%">Soinu_limitea</field><value name="VALUE"><shadow type="math_number" id="?%(KMkhwTh@KIHhkn;L)"><field name="NUM">125</field></shadow></value></block></statement></block><block type="device_forever" id="b,uQ]D+N0wU{@(Yt._B/" x="292" y="15"><statement name="HANDLER"><block type="controls_if" id="m$6~|5S;FS)ExsvC?rR4"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="P|p(ir#+v87SHyzn|v16"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_sound_level" id="/dSf^N;+M21@uNPt^Z1I"></block></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="5;--m6K+R*{`40a`qoy="><field name="VAR" id="pgG(Xcq0FW)K;#iL~LN%">Soinu_limitea</field></block></value></block></value><statement name="DO0"><block type="device_show_leds" id="pqoD3u5Kj?gt12oGq=dI"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="%;rLyQ{RZ(QOI4n%mNP:"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><next><block type="device_pause" id="DZ`|[@gw^Z`{xMJU#aLW"><value name="pause"><shadow type="timePicker" id="do0E:^KkUqx@=_ncp^D]"><field name="ms">500</field></shadow></value></block></next></block></statement></block></xml>
